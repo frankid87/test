@@ -1,0 +1,147 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Instruments" type="Instruments" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Instruments">
+    <xs:sequence>
+      <xs:element name="Instrument" type="Instrument" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Instrument">
+    <xs:sequence>
+      <xs:element name="SedolCode" type="xs:string"/>
+      <xs:element name="RecordType" type="xs:string"/>
+      <xs:element name="CompanyName" type="xs:string"/>
+      <xs:element name="StockName" type="xs:string"/>
+      <xs:element name="NominalValueCurrency" type="xs:string"/>
+      <xs:element name="NominalValue" type="xs:string"/>
+      <xs:element name="NominalValueMarker" type="xs:string"/>
+      <xs:element name="CountryOfIncorporation" type="xs:string"/>
+      <xs:element name="LocalCode" type="xs:string"/>
+      <xs:element name="EpicCode" type="xs:string"/>
+      <xs:element name="AverageMarketSize" type="xs:string"/>
+      <xs:element name="CusipInternationalCode" type="xs:string"/>
+      <xs:element name="MifidZoneIndicator" type="xs:string"/>
+      <xs:element name="MifidComplexProduct" type="xs:string"/>
+      <xs:element name="BargainInhibitFlag" type="xs:string"/>
+      <xs:element name="StockType" type="xs:string"/>
+      <xs:element name="CgtExemptMarker" type="xs:string"/>
+      <xs:element name="QuotationTypeMarker" type="xs:string"/>
+      <xs:element name="StampDutyMarker" type="xs:string"/>
+      <xs:element name="AccruedInterestPricingIndicator" type="xs:string"/>
+      <xs:element name="SecuritySettlementMarker" type="xs:string"/>
+      <xs:element name="CountryOfQuotation" type="xs:string"/>
+      <xs:element name="RegistrarCode" type="xs:string"/>
+      <xs:element name="IndustrySectorCode" type="xs:string"/>
+      <xs:element name="ExchangeMarker" type="xs:string"/>
+      <xs:element name="PtmLevyIndicator" type="xs:string"/>
+      <xs:element name="AccruedInterestCalculationIndicator" type="xs:string"/>
+      <xs:element name="CrestStartDate" type="xs:string"/>
+      <xs:element name="CrestStampException" type="xs:string"/>
+      <xs:element name="LocalIndustryClassification" type="xs:string"/>
+      <xs:element name="DividendPaymentDate1" type="xs:string"/>
+      <xs:element name="DividendPaymentDate2" type="xs:string"/>
+      <xs:element name="DividendPaymentDate3" type="xs:string"/>
+      <xs:element name="DividendPaymentDate4" type="xs:string"/>
+      <xs:element name="DividendPaymentDate5" type="xs:string"/>
+      <xs:element name="DividendPaymentCurrency" type="xs:string"/>
+      <xs:element name="DividendCouponValue" type="xs:string"/>
+      <xs:element name="DividendPaymentQualifier" type="xs:string"/>
+      <xs:element name="UsualDividendPaymentDate1" type="xs:string"/>
+      <xs:element name="UsualDividendPaymentDate2" type="xs:string"/>
+      <xs:element name="UsualDividendPaymentDate3" type="xs:string"/>
+      <xs:element name="UsualDividendPaymentDate4" type="xs:string"/>
+      <xs:element name="DividendPaymentFrequency" type="xs:string"/>
+      <xs:element name="PriceQuotationFlag" type="xs:string"/>
+      <xs:element name="ExchangeOfQuotation" type="xs:string"/>
+      <xs:element name="PriceTypeFlag" type="xs:string"/>
+      <xs:element name="ISAEligibleIndicator" type="xs:string"/>
+      <xs:element name="EarlyRedemptionDate" type="xs:string"/>
+      <xs:element name="FinalRedemptionDate" type="xs:string"/>
+      <xs:element name="NoOfNewSharesOption1" type="xs:string"/>
+      <xs:element name="NoOfNewSharesOption2" type="xs:string"/>
+      <xs:element name="OptionMaturityDate" type="xs:string"/>
+      <xs:element name="UnitofConversionCurrency" type="xs:string"/>
+      <xs:element name="UnitOfConversion" type="xs:string"/>
+      <xs:element name="ResultantSedol" type="xs:string"/>
+      <xs:element name="PEPEligibility" type="xs:string"/>
+      <xs:element name="StockIssuerName" type="xs:string"/>
+      <xs:element name="UnitOfQuotationCurrency" type="xs:string"/>
+      <xs:element name="UnitOfQuotation" type="xs:string"/>
+      <xs:element name="MinimumTransferUnitCurrency" type="xs:string"/>
+      <xs:element name="MinimumTransferValue" type="xs:string"/>
+      <xs:element name="SecurityDescription" type="xs:string"/>
+      <xs:element name="NationalityDeclarationFlag" type="xs:string"/>
+      <xs:element name="SecurityStatus" type="xs:string"/>
+      <xs:element name="SecurityEvent" type="xs:string"/>
+      <xs:element name="LseIsinCode" type="xs:string"/>
+      <xs:element name="OfficialIsinCode" type="xs:string"/>
+      <xs:element name="DividendExDate1" type="xs:string"/>
+      <xs:element name="DividendExDate2" type="xs:string"/>
+      <xs:element name="DividendExDate3" type="xs:string"/>
+      <xs:element name="DividendExDate4" type="xs:string"/>
+      <xs:element name="DividendExDate5" type="xs:string"/>
+      <xs:element name="PaymentDateSubSection1" type="xs:string"/>
+      <xs:element name="PaymentDateSubsection2" type="xs:string"/>
+      <xs:element name="PaymentDateSubSection3" type="xs:string"/>
+      <xs:element name="PaymentDateSubSection4" type="xs:string"/>
+      <xs:element name="PaymentDateSubSection5" type="xs:string"/>
+      <xs:element name="IncomeMarkerDate" type="xs:string"/>
+      <xs:element name="IssuedCapital" type="xs:string"/>
+      <xs:element name="RecordInsertionDate" type="xs:string"/>
+      <xs:element name="GeneralMarkerDate" type="xs:string"/>
+      <xs:element name="GrossAnnualDividend" type="xs:string"/>
+      <xs:element name="GrossAnnualDividendCurrency" type="xs:string"/>
+      <xs:element name="StartOfDealingDate" type="xs:string"/>
+      <xs:element name="RedemptionPercentage" type="xs:string"/>
+      <xs:element name="EarlyRedemptionPercentage" type="xs:string"/>
+      <xs:element name="OptionSectionMarker" type="xs:string"/>
+      <xs:element name="UnderlyingOptionPrice" type="xs:string"/>
+      <xs:element name="UnderlyingCashOptionPrice" type="xs:string"/>
+      <xs:element name="UnderlyingOptionPriceCurrency" type="xs:string"/>
+      <xs:element name="UnderlyingCashOptionPriceCurrency" type="xs:string"/>
+      <xs:element name="OptionConversionDate1" type="xs:string"/>
+      <xs:element name="OptionConversionDate2" type="xs:string"/>
+      <xs:element name="IssuerCode" type="xs:string"/>
+      <xs:element name="EventDate" type="xs:string"/>
+      <xs:element name="OfficialListingExchange" type="xs:string"/>
+      <xs:element name="StockEndDate" type="xs:string"/>
+      <xs:element name="RegionCode" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="GrossEligibilityIndicator" type="xs:string"/>
+      <xs:element name="GrossEligibilityDescription" type="xs:string"/>
+      <xs:element name="HedgeFunds" type="xs:string"/>
+      <xs:element name="FDAPIncomeIndicator" type="xs:string"/>
+      <xs:element name="FATCAWithholdingLiabilityIndicator" type="xs:string"/>
+      <xs:element name="FATCAQualificationDate" type="xs:string"/>
+      <xs:element name="MarketLabelMarker" type="xs:string"/>
+      <xs:element name="PriceCurrency" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeCurrency1" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeValue1" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeCurrency2" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeValue2" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeCurrency3" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeValue3" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeCurrency4" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeValue4" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeCurrency5" type="xs:string"/>
+      <xs:element name="AnnouncedIncomeValue5" type="xs:string"/>
+      <xs:element name="IncomeGeneralMarkerB" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

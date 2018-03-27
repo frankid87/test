@@ -1,0 +1,45 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Header" type="Header"/>
+      <xs:element name="CashPositions" type="CashPositions" minOccurs="1"/>
+    </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="CashPositions">
+    <xs:sequence>
+      <xs:element name="CashPosition" type="CashPosition" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="CashPosition">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string" />
+      <xs:element name="ClientAccountReference" type="xs:string" />
+      <xs:element name="ClientAccountCurrency" type="xs:string" />
+      <xs:element name="ClientLedgerValue" type="xs:string" />
+      <xs:element name="NetBalance" type="xs:string" />
+      <xs:element name="ClientFreeMoneyValue" type="xs:string" />
+      <xs:element name="ClientPreSettlementCredit" type="xs:string" />
+      <xs:element name="ClientPreSettlementDebit" type="xs:string" />
+      <xs:element name="DateTimeEntered" type="xs:string"/>
+      <xs:element name="DateTimeModified" type="xs:string"/>
+      <xs:element name="ClientUnclosedCreditBalance" type="xs:string" />
+      <xs:element name="ClientUnclosedDebitBalance" type="xs:string" />
+      <xs:element name="ClientStockDue" type="xs:string" />
+      <xs:element name="ClientActualDebit" type="xs:string" />
+      <xs:element name="ExpectedYield" type="xs:string" />
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

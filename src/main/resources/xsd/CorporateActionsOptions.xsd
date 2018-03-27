@@ -1,0 +1,55 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="CorporateActionsOptions" type="CorporateActionsOptions" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="CorporateActionsOptions">
+    <xs:sequence>
+      <xs:element name="CorporateActionsOption" type="CorporateActionsOption" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CorporateActionsOption">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="OldStockCode" type="xs:string"/>
+      <xs:element name="ExDate" type="xs:string"/>
+      <xs:element name="CorporateActionReference" type="xs:string"/>
+      <xs:element name="OptionNumber" type="xs:string"/>
+      <xs:element name="AssentedSedol" type="xs:string"/>
+      <xs:element name="OutturnSedolOutturn1" type="xs:string"/>
+      <xs:element name="OutturnSedolOutturn2" type="xs:string"/>
+      <xs:element name="OutturnSedolOutturn3" type="xs:string"/>
+      <xs:element name="OldStockQuantityOutturn1" type="xs:string"/>
+      <xs:element name="OldStockQuantityOutturn2" type="xs:string"/>
+      <xs:element name="OldStockQuantityOutturn3" type="xs:string"/>
+      <xs:element name="NewStockQuantityOutturn1" type="xs:string"/>
+      <xs:element name="NewStockQuantityOutturn2" type="xs:string"/>
+      <xs:element name="NewStockQuantityOutturn3" type="xs:string"/>
+      <xs:element name="AdjustmentFactorOutturn1" type="xs:string"/>
+      <xs:element name="AdjustmentFactorOutturn2" type="xs:string"/>
+      <xs:element name="AdjustmentFactorOutturn3" type="xs:string"/>
+      <xs:element name="CallPriceOutturn1" type="xs:string"/>
+      <xs:element name="CallPriceOutturn2" type="xs:string"/>
+      <xs:element name="CallPriceOutturn3" type="xs:string"/>
+      <xs:element name="OptionAvailable" type="xs:string"/>
+      <xs:element name="OverrideDepotflagOutturn1" type="xs:string"/>
+      <xs:element name="OverrideDepotflagOutturn2" type="xs:string"/>
+      <xs:element name="OverrideDepotflagOutturn3" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

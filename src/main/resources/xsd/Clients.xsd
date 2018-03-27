@@ -1,0 +1,152 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Clients" type="Clients" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Clients">
+    <xs:sequence>
+      <xs:element name="Client" type="Client" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Client">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="ClientReference" type="xs:string"/>
+      <xs:element name="ClientType" type="xs:string"/>
+      <xs:element name="ShortName" type="xs:string"/>
+      <xs:element name="FullName" type="xs:string"/>
+      <xs:element name="FormalSalutation" type="xs:string"/>
+      <xs:element name="InformalSalutation" type="xs:string"/>
+      <xs:element name="FormalValediction" type="xs:string"/>
+      <xs:element name="InformalValediction" type="xs:string"/>
+      <xs:element name="RSPCode" type="xs:string"/>
+      <xs:element name="ClientResidenceCode" type="xs:string"/>
+      <xs:element name="NationalityDeclaration" type="xs:string"/>
+      <xs:element name="BusinessPhoneNumber" type="xs:string"/>
+      <xs:element name="PrivatePhone" type="xs:string"/>
+      <xs:element name="MobilePhone" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="InhibitBargains" type="xs:string"/>
+      <xs:element name="JoinedDate" type="xs:string"/>
+      <xs:element name="ClientClosureDate" type="xs:string"/>
+      <xs:element name="StatementFrequency" type="xs:string"/>
+      <xs:element name="DividendPaymentAccountType" type="xs:string"/>
+      <xs:element name="DividendPaymentInCurrency" type="xs:string"/>
+      <xs:element name="MifidClientType" type="xs:string"/>
+      <xs:element name="MifidClientID" type="xs:string"/>
+      <xs:element name="NationalInsuranceNumber" type="xs:string"/>
+      <xs:element name="DateOfBirth" type="xs:string"/>
+      <xs:element name="Sex" type="xs:string"/>
+      <xs:element name="NonEntity" type="xs:string"/>
+      <xs:element name="SubAccount" type="xs:string"/>
+      <xs:element name="FaxNum" type="xs:string"/>
+      <xs:element name="Scheme" type="xs:string"/>
+      <xs:element name="CurrentBestExPolicyConsentDate" type="xs:string"/>
+      <xs:element name="ClientAppropriatenessCheckDate" type="xs:string"/>
+      <xs:element name="Notes" type="xs:string"/>
+      <xs:element name="OldClientReference" type="xs:string"/>
+      <xs:element name="Memo" type="xs:string"/>
+      <xs:element name="BicCode" type="xs:string"/>
+      <xs:element name="NewClientReference" type="xs:string"/>
+      <xs:element name="LEGCode" type="xs:string"/>
+      <xs:element name="ExternalMemberReference" type="xs:string"/>
+      <xs:element name="USResidentExecutionOnly" type="xs:string"/>
+      <xs:element name="OtherTerritory" type="xs:string"/>
+      <xs:element name="ClientAddressNumber" type="xs:string"/>
+      <xs:element name="EmailAddressNumber" type="xs:string"/>
+      <xs:element name="RegistrationAddressNumber" type="xs:string"/>
+      <xs:element name="CertficateAddressNumber" type="xs:string"/>
+      <xs:element name="ThirdPartyAddressNumber" type="xs:string"/>
+      <xs:element name="ExternalCRESTMemberID" type="xs:string"/>
+      <xs:element name="ExternalCRESTGiltMemberID" type="xs:string"/>
+      <xs:element name="ExternalCRESTGiltReference" type="xs:string"/>
+      <xs:element name="BranchCode" type="xs:string"/>
+      <xs:element name="FATCAWithholdingTax" type="xs:string"/>
+      <xs:element name="BusinessPhoneCountry" type="xs:string"/>
+      <xs:element name="HomePhoneCountry" type="xs:string"/>
+      <xs:element name="MobilePhoneCountry" type="xs:string"/>
+      <xs:element name="FaxCountry" type="xs:string"/>
+      <xs:element name="NonDomicileIndicator" type="xs:string"/>
+      <xs:element name="PEPRelationship" type="xs:string"/>
+      <xs:element name="UIClientClosureDate" type="xs:string"/>
+      <xs:element name="MiFIDIIIDType" type="xs:string"/>
+      <xs:element name="MiFIDIIIdentifier" type="xs:string"/>
+      <xs:element name="InvestmentDecisionMaker" type="xs:string"/>
+      <xs:element name="ReportBeneficiary" type="xs:string"/>
+      <xs:element name="Title" type="xs:string"/>
+      <xs:element name="FirstName" type="xs:string"/>
+      <xs:element name="Surname" type="xs:string"/>
+      <xs:element name="Suffix" type="xs:string"/>
+      <xs:element name="InvestorType" type="xs:string"/>
+      <xs:element name="AdditionalNames" type="AdditionalNames"/>
+      <xs:element name="EDeliveryOnly" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AdditionalNames">
+    <xs:sequence>
+      <xs:element name="AdditionalName2" type="AdditionalName2" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="AdditionalName3" type="AdditionalName3" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="AdditionalName4" type="AdditionalName4" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AdditionalName2">
+    <xs:sequence>
+      <xs:element name="Title" type="xs:string" />
+      <xs:element name="FirstName" type="xs:string" />
+      <xs:element name="Surname" type="xs:string" />
+      <xs:element name="Suffix" type="xs:string" />
+      <xs:element name="NationalInsurance" type="xs:string" />
+      <xs:element name="DateOfBirth" type="xs:string" />
+      <xs:element name="Sex" type="xs:string" />
+      <xs:element name="Nationality" type="xs:string" />
+      <xs:element name="MiFIDIIIDType" type="xs:string" />
+      <xs:element name="MiFIDIIIdentifier" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AdditionalName3">
+    <xs:sequence>
+      <xs:element name="Title" type="xs:string" />
+      <xs:element name="FirstName" type="xs:string" />
+      <xs:element name="Surname" type="xs:string" />
+      <xs:element name="Suffix" type="xs:string" />
+      <xs:element name="NationalInsurance" type="xs:string" />
+      <xs:element name="DateOfBirth" type="xs:string" />
+      <xs:element name="Sex" type="xs:string" />
+      <xs:element name="Nationality" type="xs:string" />
+      <xs:element name="MiFIDIIIDType" type="xs:string" />
+      <xs:element name="MiFIDIIIdentifier" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AdditionalName4">
+    <xs:sequence>
+      <xs:element name="Title" type="xs:string" />
+      <xs:element name="FirstName" type="xs:string" />
+      <xs:element name="Surname" type="xs:string" />
+      <xs:element name="Suffix" type="xs:string" />
+      <xs:element name="NationalInsurance" type="xs:string" />
+      <xs:element name="DateOfBirth" type="xs:string" />
+      <xs:element name="Sex" type="xs:string" />
+      <xs:element name="Nationality" type="xs:string" />
+      <xs:element name="MiFIDIIIDType" type="xs:string" />
+      <xs:element name="MiFIDIIIdentifier" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

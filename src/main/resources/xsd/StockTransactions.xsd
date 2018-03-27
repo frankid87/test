@@ -1,0 +1,64 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+  
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="StockTransactions" type="StockTransactions" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="StockTransactions">
+    <xs:sequence>
+      <xs:element name="StockTransaction" type="StockTransaction" minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StockTransaction">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="TransactionReference" type="xs:string"/>
+      <xs:element name="AccountReference" type="xs:string"/>
+      <xs:element name="StockCode" type="xs:string"/>
+      <xs:element name="AmendmentType" type="xs:string"/>
+      <xs:element name="BargainFlag" type="xs:string"/>
+      <xs:element name="BookCostBasis" type="xs:string"/>
+      <xs:element name="CapitalChargeReference" type="xs:string"/>
+      <xs:element name="NetAmountCurrency" type="xs:string"/>
+      <xs:element name="ClientPriceCurrency" type="xs:string"/>
+      <xs:element name="BookCostUnreliable" type="xs:string"/>
+      <xs:element name="DepotCode" type="xs:string"/>
+      <xs:element name="ElementType" type="xs:string"/>
+      <xs:element name="DirectionOfExchangeRate" type="xs:string"/>
+      <xs:element name="BookCost" type="xs:string"/>
+      <xs:element name="ControlQuantity" type="xs:string"/>
+      <xs:element name="SettlementPortfolioCurrencyExchangeRate" type="xs:string"/>
+      <xs:element name="MarketQuantity" type="xs:string"/>
+      <xs:element name="PhysicalQuantity" type="xs:string"/>
+      <xs:element name="ValuationQuantity" type="xs:string"/>
+      <xs:element name="RegistrarQuantity" type="xs:string"/>
+      <xs:element name="TransactionDateTime" type="xs:string"/>
+      <xs:element name="InternalTransactionType" type="xs:string"/>
+      <xs:element name="UnitCost" type="xs:string"/>
+      <xs:element name="NomineeCode" type="xs:string"/>
+      <xs:element name="OtherSedolCode" type="xs:string"/>
+      <xs:element name="PricePortfolioCurrencyExchangeRate" type="xs:string"/>
+      <xs:element name="ReversalIndicator" type="xs:string"/>
+      <xs:element name="DateTimeEntered" type="xs:string"/>
+      <xs:element name="DateTimeModified" type="xs:string"/>
+      <xs:element name="ValueDate" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="ArtificialTransactionType" type="xs:string"/>
+      <xs:element name="TransactionTimeOrder" type="xs:string"/>
+	  <xs:element name="ChangeType" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

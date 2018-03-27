@@ -1,0 +1,64 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="OMTDetails" type="OMTDetails" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="OMTDetails">
+    <xs:sequence>
+      <xs:element name="OMTDetail" type="OMTDetail" minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OMTDetail">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="TransferReference" type="xs:string"/>
+      <xs:element name="BatchReference" type="xs:string"/>
+      <xs:element name="SubReference" type="xs:string"/>
+      <xs:element name="ClientAccountReference" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="AmendCode" type="xs:string"/>
+      <xs:element name="AmendStatus" type="xs:string"/>
+      <xs:element name="Currency" type="xs:string"/>
+      <xs:element name="DeletionIndicator" type="xs:string"/>
+      <xs:element name="FromCurrency" type="xs:string"/>
+      <xs:element name="LateReject" type="xs:string"/>
+      <xs:element name="ProcessType" type="xs:string"/>
+      <xs:element name="RejectCode" type="xs:string"/>
+      <xs:element name="Sedol" type="xs:string"/>
+      <xs:element name="StampCurrency" type="xs:string"/>
+      <xs:element name="TransferTransactionType" type="xs:string"/>
+      <xs:element name="TransferType" type="xs:string"/>
+      <xs:element name="OMTValuationReference" type="xs:string"/>
+      <xs:element name="TransactionProcessStatus" type="xs:string"/>
+      <xs:element name="UpdateValuation" type="xs:string"/>
+      <xs:element name="AmendDate" type="xs:string"/>
+      <xs:element name="CertificateReceivedDate" type="xs:string"/>
+      <xs:element name="FromBookCost" type="xs:string"/>
+      <xs:element name="BookCost" type="xs:string"/>
+      <xs:element name="ProcessDate" type="xs:string"/>
+      <xs:element name="ProcessTime" type="xs:string"/>
+      <xs:element name="RejectDate" type="xs:string"/>
+      <xs:element name="StampConsideration" type="xs:string"/>
+      <xs:element name="SystemAmendDate" type="xs:string"/>
+      <xs:element name="SystemAmendTime" type="xs:string"/>
+      <xs:element name="SystemEntryDate" type="xs:string"/>
+      <xs:element name="SystemEntryTime" type="xs:string"/>
+      <xs:element name="TransactionDate" type="xs:string"/>
+      <xs:element name="TransactionQuantity" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

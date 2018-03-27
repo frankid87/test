@@ -1,0 +1,53 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="StockPositions" type="StockPositions" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="StockPositions">
+    <xs:sequence>
+      <xs:element name="StockPosition" type="StockPosition" minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StockPosition">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string" />
+      <xs:element name="ClientAccountReference" type="xs:string" />
+      <xs:element name="SedolCode" type="xs:string" />
+      <xs:element name="ISAPEPtype" type="xs:string" />
+      <xs:element name="Product" type="xs:string" />
+      <xs:element name="DepotCode" type="xs:string" />
+      <xs:element name="BookCost" type="xs:string" />
+      <xs:element name="ControlQuantity" type="xs:string" />
+      <xs:element name="MarketQuantity" type="xs:string" />
+      <xs:element name="PhysicalQuantity" type="xs:string" />
+      <xs:element name="RegistrarQuantity" type="xs:string" />
+      <xs:element name="NomineeCode" type="xs:string" />
+      <xs:element name="Valuationholdings" type="xs:string" />
+      <xs:element name="ResponsibilityCode" type="xs:string" />
+      <xs:element name="DateTimeEntered" type="xs:string" />
+      <xs:element name="DateTimeModified" type="xs:string" />
+      <xs:element name="ValuationCurrency" type="xs:string" />
+      <xs:element name="Price" type="xs:string" />
+      <xs:element name="AccruedInterestDays" type="xs:string" />
+      <xs:element name="AccruedInterestValue" type="xs:string" />
+      <xs:element name="Value" type="xs:string" />
+      <xs:element name="FirmDate" type="xs:string" />
+      <xs:element name="ActiveFlag" type="xs:string" />
+      <xs:element name="Yield" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

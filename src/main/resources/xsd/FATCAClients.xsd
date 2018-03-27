@@ -1,0 +1,71 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="FATCAClients" type="FATCAClients" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="FATCAClients">
+    <xs:sequence>
+      <xs:element name="FATCAClient" type="FATCAClient" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FATCAClient">
+    <xs:sequence>
+      <xs:element name="Firm" type="xs:string" />
+      <xs:element name="InvestorReference" type="xs:string" />
+      <xs:element name="ClientReference" type="xs:string" />
+      <xs:element name="FirmOrPershing" type="xs:string" />
+      <xs:element name="Type" type="xs:string" />
+      <xs:element name="PreOrPost" type="xs:string" />
+      <xs:element name="CountryOfBirth" type="xs:string" />
+      <xs:element name="Scope" type="xs:string" />
+      <xs:element name="USTelephoneNumber" type="xs:string" />
+      <xs:element name="StandingInstructionToUS" type="xs:string" />
+      <xs:element name="PowerOfAttorneyInUS" type="xs:string" />
+      <xs:element name="HighValueAccount" type="xs:string" />
+      <xs:element name="USSubstantialOwner" type="xs:string" />
+      <xs:element name="UnderlyingParticipants" type="xs:string" />
+      <xs:element name="USIndicia" type="xs:string" />
+      <xs:element name="StatusNumber" type="xs:string" />
+      <xs:element name="Status" type="xs:string" />
+      <xs:element name="CompletionDate" type="xs:string" />
+      <xs:element name="Classification" type="xs:string" />
+      <xs:element name="SubClassification" type="xs:string" />
+      <xs:element name="Document1" type="xs:string" />
+      <xs:element name="DocumentReferenceNumber1" type="xs:string" />
+      <xs:element name="DocumentExpiryDate1" type="xs:string" />
+      <xs:element name="Document2" type="xs:string" />
+      <xs:element name="DocumentReferenceNumber2" type="xs:string" />
+      <xs:element name="DocumentExpiryDate2" type="xs:string" />
+      <xs:element name="Document3" type="xs:string" />
+      <xs:element name="DocumentReferenceNumber3" type="xs:string" />
+      <xs:element name="DocumentExpiryDate3" type="xs:string" />
+      <xs:element name="USInhibitIndicator" type="xs:string" />
+      <xs:element name="DateOfBirth" type="xs:string" />
+      <xs:element name="TaxpayerIdentificationNumber" type="xs:string" />
+      <xs:element name="InvestorBalanceUSD" type="xs:string" />
+      <xs:element name="InvestorBalanceDate" type="xs:string" />
+      <xs:element name="StandingOrdersAccount" type="xs:string" />
+      <xs:element name="StandingOrdersCurrency" type="xs:string" />
+      <xs:element name="SoleAddressNumber" type="xs:string" />
+      <xs:element name="SoleAddressIndicator" type="xs:string" />
+      <xs:element name="USAddressIndicator" type="xs:string" />
+      <xs:element name="ActiveFlag" type="xs:string" />
+      <xs:element name="FATCAWithholdingTax" type="xs:string" />
+      <xs:element name="GlobalIntermediaryIdentificationNumber" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

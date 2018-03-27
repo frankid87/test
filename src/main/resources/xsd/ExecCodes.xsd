@@ -1,0 +1,42 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="ExecCodes" type="ExecCodes" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ExecCodes">
+    <xs:sequence>
+      <xs:element name="Exec" type="Exec" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Exec">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="ExecCode" type="xs:string"/>
+      <xs:element name="ExecName" type="xs:string"/>
+      <xs:element name="BranchCode" type="xs:string"/>
+      <xs:element name="EmailAddressNumber" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="Nationality" type="xs:string"/>
+      <xs:element name="MiFIDIIIDType" type="xs:string"/>
+      <xs:element name="MiFIDIIIdentifier" type="xs:string"/>
+      <xs:element name="TransmissionAgreement" type="xs:string"/>
+      <xs:element name="ThirdPartyLEI" type="xs:string"/>
+      <xs:element name="ThirdPartyBranchCountry" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+      

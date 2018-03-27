@@ -1,0 +1,89 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="ClientAccounts" type="ClientAccounts" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ClientAccounts">
+    <xs:sequence>
+      <xs:element name="ClientAccount" type="ClientAccount" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ClientAccount">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="ClientAccountReference" type="xs:string"/>
+      <xs:element name="ClientReference" type="xs:string"/>
+      <xs:element name="SearchKey" type="xs:string"/>
+      <xs:element name="AccountType" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="BAFCode" type="xs:string"/>
+      <xs:element name="CharityNumber" type="xs:string"/>
+      <xs:element name="DealingFlag" type="xs:string"/>
+      <xs:element name="InternetType" type="xs:string"/>
+      <xs:element name="CommissionCategory" type="xs:string"/>
+      <xs:element name="CommissionBasis" type="xs:string"/>
+      <xs:element name="NomineeType" type="xs:string"/>
+      <xs:element name="CGTStatus" type="xs:string"/>
+      <xs:element name="InvestmentObjectives" type="xs:string"/>
+      <xs:element name="InvestmentRisk" type="xs:string"/>
+      <xs:element name="InvestmentRestrictions" type="xs:string"/>
+      <xs:element name="MiFIDCategorisation" type="xs:string"/>
+      <xs:element name="MiFIDRelationship" type="xs:string"/>
+      <xs:element name="CADFlag" type="xs:string"/>
+      <xs:element name="BoughtBargainLimit" type="xs:string"/>
+      <xs:element name="SoldBargainLimit" type="xs:string"/>
+      <xs:element name="BargainLimit" type="xs:string"/>
+      <xs:element name="ManagedClientFlag" type="xs:string"/>
+      <xs:element name="PhoneFlag" type="xs:string"/>
+      <xs:element name="AssociatedRemarks" type="xs:string"/>
+      <xs:element name="UnassociatedRemarks" type="xs:string"/>
+      <xs:element name="ProductCode" type="xs:string"/>
+      <xs:element name="ProduceContractNotes" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber1" type="xs:string"/>
+      <xs:element name="ContractNoteCopy1" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber2" type="xs:string"/>
+      <xs:element name="ContractNoteCopy2" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber3" type="xs:string"/>
+      <xs:element name="ContractNoteCopy3" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber4" type="xs:string"/>
+      <xs:element name="ContractNoteCopy4" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber5" type="xs:string"/>
+      <xs:element name="ContractNoteCopy5" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber6" type="xs:string"/>
+      <xs:element name="ContractNoteCopy6" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber7" type="xs:string"/>
+      <xs:element name="ContractNoteCopy7" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber8" type="xs:string"/>
+      <xs:element name="ContractNoteCopy8" type="xs:string"/>
+      <xs:element name="ContractNoteAddressNumber9" type="xs:string"/>
+      <xs:element name="ContractNoteCopy9" type="xs:string"/>
+      <xs:element name="DividendAddressNumber" type="xs:string"/>
+      <xs:element name="EquityCRESTMemberAccount" type="xs:string"/>
+      <xs:element name="GiltCRESTMemberAccount" type="xs:string"/>
+      <xs:element name="NomineeCompany" type="xs:string"/>
+      <xs:element name="StockCode" type="xs:string"/>
+      <xs:element name="StampStatus" type="xs:string"/>
+      <xs:element name="FundManager" type="xs:string"/>
+      <xs:element name="FundCode" type="xs:string"/>
+      <xs:element name="SubAccount" type="xs:string"/>
+      <xs:element name="GrossEligibilityIndicator" type="xs:string"/>
+      <xs:element name="GrossStockDesignation" type="xs:string"/>
+      <xs:element name="InvestorInformationProvision" type="xs:string"/>
+      <xs:element name="TrailClassification" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

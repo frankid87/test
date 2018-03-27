@@ -1,0 +1,62 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:simpleType name="FeedType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Addresses"/>
+      <xs:enumeration value="Bargains"/>
+      <xs:enumeration value="Cash Journals"/>
+      <xs:enumeration value="Cash Positions"/>
+      <xs:enumeration value="Cash Receipt Batch Headers"/>
+      <xs:enumeration value="Cash Transactions"/>
+      <xs:enumeration value="Client Accounts"/>
+      <xs:enumeration value="Client Accounts Pending Orders XRef"/>
+      <xs:enumeration value="Clients"/>
+      <xs:enumeration value="Consolidated Instruments"/>
+      <xs:enumeration value="Corporate Actions Client Details"/>
+      <xs:enumeration value="Corporate Actions Client Partials"/>
+      <xs:enumeration value="Corporate Actions Headers"/>
+      <xs:enumeration value="Corporate Actions Options"/>
+      <xs:enumeration value="Counterparties"/>
+      <xs:enumeration value="Counterparty Addresses"/>
+      <xs:enumeration value="Dividend Client Entitlements"/>
+      <xs:enumeration value="Dividend Exchange Rates"/>
+      <xs:enumeration value="Dividend Headers"/>
+      <xs:enumeration value="Dividend Ledgers"/>
+      <xs:enumeration value="Exchange Rates"/>
+      <xs:enumeration value="Fee Transactions"/>
+      <xs:enumeration value="Firm Information"/>
+      <xs:enumeration value="Instruments"/>
+      <xs:enumeration value="Interest Transactions"/>
+      <xs:enumeration value="Ledgers"/>
+      <xs:enumeration value="Market Bargains"/>
+      <xs:enumeration value="Market Indexs"/>
+      <xs:enumeration value="OMT Details"/>
+      <xs:enumeration value="OMT Headers"/>
+      <xs:enumeration value="OMT International Details"/>
+      <xs:enumeration value="OMT Summary Details"/>
+      <xs:enumeration value="Payments"/>
+      <xs:enumeration value="Portfolio Client X Refs"/>
+      <xs:enumeration value="Portfolios"/>
+      <xs:enumeration value="Prices"/>
+      <xs:enumeration value="Stock Classifications"/>
+      <xs:enumeration value="Stock Positions"/>
+      <xs:enumeration value="Stock Positions Version 2"/>
+      <xs:enumeration value="Stock Transaction Details"/>
+      <xs:enumeration value="Stock Transactions"/>
+      <xs:enumeration value="User Access Definitions"/>
+      <xs:enumeration value="PCI Clients"/>
+      <xs:enumeration value="FATCA Clients"/>
+      <xs:enumeration value="Connected Parties"/>
+      <xs:enumeration value="EPML Account Charges"/>
+      <xs:enumeration value="EPML Asset Transactions"/>
+      <xs:enumeration value="EPML Bank Interest"/>
+      <xs:enumeration value="EPML Dividend"/>
+      <xs:enumeration value="Investors"/>
+      <xs:enumeration value="Exec Codes"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

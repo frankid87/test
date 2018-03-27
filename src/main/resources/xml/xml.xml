@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Extract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://odi.pershingnexus.com/v1">
+  <Header>
+    <SubscriptionName>Daily_ExchangeRates</SubscriptionName>
+    <SubscriptionID>4743</SubscriptionID>
+    <ExecutionID>1056514</ExecutionID>
+    <ODIFeed>Exchange Rates</ODIFeed>
+    <DataDateTime>2018-01-24T05:55:08</DataDateTime>
+    <FirmCodes>
+      <FirmCode>PL</FirmCode>
+    </FirmCodes>
+    <Environment>UAT</Environment>
+    <NoOfRecords>192</NoOfRecords>
+  </Header>
+  <ExchangeRates>
+<ExchangeRate>c
+  <CurrencyTo>AED</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5.14855000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AFA</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>69.14400000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AFN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>97.32700000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ALL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>152.34065000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AMD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>674.50000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ANG</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.50925000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AOA</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>283.91020000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AON</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>8508.70000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ARS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>27.12485000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ATS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>15.69120000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AUD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.75290000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AWG</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.50925000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AZM</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>7908.21350000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>AZN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.36835000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BAM</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.23030000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BBD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.80360000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BDT</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>116.73490000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BEF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>46.00055000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BGL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.98240000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BGN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.23050000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BHD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.52845000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BIF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2481.19000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BMD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.40180000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BND</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.84795000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BOB</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>9.68645000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BRL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4.52830000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BRR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4138.39000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BSD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.40180000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BTN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>89.42785000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BWP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>13.57700000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BYR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>27347.39000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>BZD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.80185000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CAD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.74315000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CHF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.34235000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CLF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.03185000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CLP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>853.94155000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CNH</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>8.97710000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CNY</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>8.97850000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>COP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4000.15570000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CRC</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>797.54065000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CUP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.40180000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CVE</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>125.90000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CYP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.66745000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>CZK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>28.93405000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>DEM</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.23030000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>DJF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>250.75000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>DKK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>8.48945000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>DOP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>67.91720000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>DZD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>159.89130000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ECS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>35045.00000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>EEK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>17.84220000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>EGP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>24.83110000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ESP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>189.73390000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ETB</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>38.34415000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>EUA</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>9900.00000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>EUR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.87692375</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>FIM</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>6.78005000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>FJD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.82645000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>FKP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>9900.00000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>FRF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>7.48005000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GBP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.00000000</ExchangeRate>
+      <RateDate>1992-12-22T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GEL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3.52555000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GHC</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>18593.52100000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GHS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>6.37120000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GIP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.00000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GMD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>67.11120000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GNF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>12623.22900000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GRD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>388.56535000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GTQ</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>10.29555000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GWP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>58280.60000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>GYD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>291.55000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>HKD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>10.95965000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>HNL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>33.09115000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>HRK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>8.47370000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>HTG</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>89.99730000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>HUF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>352.89600000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>IDR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>18682.49000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>IEP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.89810000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ILS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4.78035000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>INR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>89.42785000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>IQD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1661.10000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ISK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>143.57240000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ITL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2207.97480000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>JMD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>174.22360000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>JOD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.99385000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>JPY</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>154.68160000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KES</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>143.61445000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KGS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>97.20545000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KHR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5621.20000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KMF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>561.00250000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KRW</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1500.27650000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KWD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.42115000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KYD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.14950000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>KZT</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>452.13660000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LAK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>11652.50000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LBP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2118.82120000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LKR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>216.08750000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LRD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>179.43000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LSL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>16.91970000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LTL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3.93730000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LUF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>46.00055000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LVL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.80140000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>LYD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.87670000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MAD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>12.90755000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MDL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>23.59935000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MGA</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4527.81700000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MGF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>17807.10000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MKD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>70.21620000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MMK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1884.72000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MNT</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3390.95480000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MOP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>11.28850000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MRO</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>496.93845000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MTL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.48955000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MUR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>46.04915000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MVR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>21.60175000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MWK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1017.49130000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MXN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>26.31705000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MYR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5.50280000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MZM</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>47830.05200000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>MZN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>83.32315000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NAD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>16.91970000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NGN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>506.04990000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NIO</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>43.29560000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NLG</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>2.51295000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NOK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>10.97275000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NPR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>143.08455000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>NZD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.90440000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>OMR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.53975000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PAB</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.40180000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PEN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4.50915000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PGK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4.53265000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PHP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>71.64600000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PKR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>154.90595000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PLN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4.75190000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PTE</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>228.61440000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>PYG</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>7880.92400000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>QAR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5.10395000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ROL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>53344.88300000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>RON</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5.32360000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>RSD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>135.31580000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>RUB</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>79.04225000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>RWF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1198.54060000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SAR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5.25735000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SBD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>10.75685000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SCR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>19.36435000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SDR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.97000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SEK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>11.24620000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SGD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.84795000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SHP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.00000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SIT</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>273.26720000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SKK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>34.35340000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SLL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>10744.81000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SOS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>816.52000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SRD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>10.46865000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SRG</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4466.01000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>STD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>27975.20000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SVC</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>12.26575000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>SZL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>16.91970000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>THB</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>44.63330000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TJS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>12.30770000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TND</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3.41200000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TOP</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3.03275000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TRY</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5.28765000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TTD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>9.44920000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TWD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>40.99215000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>TZS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3148.43710000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>UAH</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>40.37885000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>UAK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>275869.60000000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>UGX</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>5098.34760000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>USD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.39800000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>UYU</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>39.90225000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>UZS</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>11444.20000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>VEB</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4274.41590000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>VEF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>4683.16060000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>VUV</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>149.43970000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>WST</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3.46745000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XAF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1005.18400000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XBA</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.32400000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XCD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>3.78485000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XDR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>0.97000000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XEU</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>1.14035000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XOF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>748.00335000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>XPF</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>136.07680000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>YER</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>350.90570000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>YUM</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>97.17860000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>YUN</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>7.45350000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ZAR</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>16.91970000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ZMK</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>8392.26530000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ZMW</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>13.64845000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ZWD</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>516.54230000</ExchangeRate>
+      <RateDate>2016-11-30T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate>
+<ExchangeRate>
+  <CurrencyTo>ZWL</CurrencyTo>
+  <BaseCurrency>GBP</BaseCurrency>
+  <ActiveFlag>1</ActiveFlag>
+  <Details>
+    <Detail>
+      <ExchangeRate>489.70645000</ExchangeRate>
+      <RateDate>2018-01-23T00:00:00</RateDate>
+    </Detail>
+  </Details>
+</ExchangeRate></ExchangeRates>
+</Extract>

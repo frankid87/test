@@ -1,0 +1,53 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Investors" type="Investors" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Investors">
+    <xs:sequence>
+      <xs:element name="Investor" type="Investor" minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Investor">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string" />
+      <xs:element name="InvestorReference" type="xs:string" />
+      <xs:element name="Products" type="Products"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Products">
+    <xs:sequence>
+      <xs:element name="Product" type="Product" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Product">
+    <xs:sequence>
+      <xs:element name="ClientReference" type="xs:string" />
+      <xs:element name="RootClientAccount" type="xs:string" />
+      <xs:element name="ProductCode" type="xs:string" />
+      <xs:element name="ISAIndicator" type="xs:string" />
+      <xs:element name="ActiveFlag" type="xs:string" />
+      <xs:element name="InvestorDisabledIndicator" type="xs:string" />
+      <xs:element name="BeneficialOwnerIdentified" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+

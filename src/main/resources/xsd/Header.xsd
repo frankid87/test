@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="FeedType.xsd"/>
+  
+  <xs:complexType name="Header">
+    <xs:sequence>
+      <xs:element name="SubscriptionName" type="xs:string" />
+      <xs:element name="SubscriptionID" type="xs:integer" />
+      <xs:element name="ExecutionID" type="xs:integer" />
+      <xs:element name="ODIFeed" type="FeedType"/>
+      <xs:element name="DataDateTime" type="xs:dateTime" />
+      <xs:element name="FirmCodes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="FirmCode" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Environment" type="xs:string" />
+      <xs:element name="NoOfRecords" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

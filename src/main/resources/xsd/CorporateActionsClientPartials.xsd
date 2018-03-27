@@ -1,0 +1,52 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="CorporateActionsClientPartials" type="CorporateActionsClientPartials" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="CorporateActionsClientPartials">
+    <xs:sequence>
+      <xs:element name="CorporateActionsClientPartial" type="CorporateActionsClientPartial" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CorporateActionsClientPartial">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="OldStockCode" type="xs:string"/>
+      <xs:element name="ExDate" type="xs:string"/>
+      <xs:element name="CorporateActionReference" type="xs:string"/>
+      <xs:element name="RecordType" type="xs:string"/>
+      <xs:element name="ClientAccountReference" type="xs:string"/>
+      <xs:element name="DepotCode" type="xs:string"/>
+      <xs:element name="NomineeCashTransaction" type="xs:string"/>
+      <xs:element name="ValuationCashTransaction" type="xs:string"/>
+      <xs:element name="LapsedProceedsTransaction" type="xs:string"/>
+      <xs:element name="OldNomineeTransaction1" type="xs:string"/>
+      <xs:element name="OldNomineeTransaction2" type="xs:string"/>
+      <xs:element name="OldNomineeTransaction3" type="xs:string"/>
+      <xs:element name="OldValuationTransaction1" type="xs:string"/>
+      <xs:element name="OutturnNomineeTransaction1" type="xs:string"/>
+      <xs:element name="OutturnNomineeTransaction2" type="xs:string"/>
+      <xs:element name="OutturnNomineeTransaction3" type="xs:string"/>
+      <xs:element name="NewNomineeTransaction1" type="xs:string"/>
+      <xs:element name="NewNomineeTransaction2" type="xs:string"/>
+      <xs:element name="NewValuationTransaction1" type="xs:string"/>
+      <xs:element name="NewValuationTransaction2" type="xs:string"/>
+      <xs:element name="NewValuationTransaction3" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

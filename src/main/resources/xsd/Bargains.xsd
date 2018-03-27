@@ -1,0 +1,88 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Bargains" type="Bargains" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Bargains">
+    <xs:sequence>
+      <xs:element name="Bargain" type="Bargain" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Bargain">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="TransactionReference" type="xs:string"/>
+      <xs:element name="AccountReference" type="xs:string"/>
+      <xs:element name="Quantity" type="xs:string"/>
+      <xs:element name="TradeDate" type="xs:string"/>
+      <xs:element name="BoughtSoldFlag" type="xs:string"/>
+      <xs:element name="AmendCancelFlag" type="xs:string"/>
+      <xs:element name="StockCode" type="xs:string"/>
+      <xs:element name="SettlementDate" type="xs:string"/>
+      <xs:element name="AccruedNumberOfDays" type="xs:string"/>
+      <xs:element name="AgentPrincipalTransaction" type="xs:string"/>
+      <xs:element name="OrderType" type="xs:string"/>
+      <xs:element name="BafValue" type="xs:string"/>
+      <xs:element name="ClientExpensesCurrency" type="xs:string"/>
+      <xs:element name="ClientSettlementCurrency" type="xs:string"/>
+      <xs:element name="AccruedInterestAmount" type="xs:string"/>
+      <xs:element name="ClientPrice" type="xs:string"/>
+      <xs:element name="SecondPartyCharge1" type="xs:string"/>
+      <xs:element name="SecondPartyCharge2" type="xs:string"/>
+      <xs:element name="SecondPartyCharge3" type="xs:string"/>
+      <xs:element name="TransferStampCharge" type="xs:string"/>
+      <xs:element name="Commission" type="xs:string"/>
+      <xs:element name="PtmLevy" type="xs:string"/>
+      <xs:element name="ExternalClientReference" type="xs:string"/>
+      <xs:element name="BargainRemarks" type="xs:string"/>
+      <xs:element name="HandlingCharge" type="xs:string"/>
+      <xs:element name="MiscellaneousCharge1" type="xs:string"/>
+      <xs:element name="MiscellaneousCharge2" type="xs:string"/>
+      <xs:element name="MiscellaneousCharge3" type="xs:string"/>
+      <xs:element name="NewReference" type="xs:string"/>
+      <xs:element name="OldReference" type="xs:string"/>
+      <xs:element name="OptionalCharge" type="xs:string"/>
+      <xs:element name="DealValue" type="xs:string"/>
+      <xs:element name="ExpensesValue" type="xs:string"/>
+      <xs:element name="ClientSettlementExchangeRate" type="xs:string"/>
+      <xs:element name="ClientExpensesExchangeRate" type="xs:string"/>
+      <xs:element name="MarketSettlementCurrency" type="xs:string"/>
+      <xs:element name="MarketSettlementExchangeRate" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="MarketPriceCurrency" type="xs:string"/>
+      <xs:element name="MarketPriceExchangeRate" type="xs:string"/>
+      <xs:element name="CommonOrderReference" type="xs:string" />
+      <xs:element name="ExternalReference" type="xs:string" />
+      <xs:element name="ClientExternalReference" type="xs:string" />
+      <xs:element name="ISIN" type="xs:string" />
+      <xs:element name="SettlementCentre" type="xs:string" />
+      <xs:element name="CountryOfQuotation" type="xs:string" />
+      <xs:element name="VenueId" type="xs:string" />
+      <xs:element name="TimeOfDealing" type="xs:string" />
+      <xs:element name="ChangeType" type="xs:string" />
+      <xs:element name="BargainCondition1" type="xs:string" />
+      <xs:element name="BargainCondition2" type="xs:string" />
+      <xs:element name="BargainCondition3" type="xs:string" />
+      <xs:element name="BargainCondition4" type="xs:string" />
+      <xs:element name="BargainCondition5" type="xs:string" />
+      <xs:element name="BargainCondition6" type="xs:string" />
+      <xs:element name="SwitchLinkingRef" type="xs:string" />
+      <xs:element name="Consideration" type="xs:string" />
+      <xs:element name="TRTradeTime" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

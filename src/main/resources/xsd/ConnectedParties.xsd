@@ -1,0 +1,66 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="ConnectedParties" type="ConnectedParties" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ConnectedParties">
+    <xs:sequence>
+      <xs:element name="ConnectedParty" type="ConnectedParty" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConnectedParty">
+    <xs:sequence>
+      <xs:element name="Firm" type="xs:string"/>
+      <xs:element name="ClientReference" type="xs:string"/>
+      <xs:element name="RecordType" type="xs:string"/>
+      <xs:element name="AddressSetNumber" type="xs:string"/>
+      <xs:element name="AddressSetNumber2" type="xs:string"/>
+      <xs:element name="AddressSetNumber3" type="xs:string"/>
+      <xs:element name="DateOfBirth" type="xs:string"/>
+      <xs:element name="CertificateOfResidency" type="xs:string"/>
+      <xs:element name="ClientResidency" type="xs:string"/>
+      <xs:element name="CountryOfBirth" type="xs:string"/>
+      <xs:element name="OtherTerritory" type="xs:string"/>
+      <xs:element name="CountryOfTaxStatus" type="xs:string"/>
+      <xs:element name="TypeOfEUID" type="xs:string"/>
+      <xs:element name="EUIDNumber" type="xs:string"/>
+      <xs:element name="FATCAClassification" type="xs:string"/>
+      <xs:element name="FATCAFirmOrPershing" type="xs:string"/>
+      <xs:element name="FATCAScope" type="xs:string"/>
+      <xs:element name="FATCAStatusNumber" type="xs:string"/>
+      <xs:element name="FromDate" type="xs:string"/>
+      <xs:element name="NonEntityExempt" type="xs:string"/>
+      <xs:element name="OtherName" type="xs:string"/>
+      <xs:element name="OtherName2" type="xs:string"/>
+      <xs:element name="ParticipantName" type="xs:string"/>
+      <xs:element name="ParticipantNumber" type="xs:string"/>
+      <xs:element name="ConnectedPartyType" type="xs:string"/>
+      <xs:element name="PercentageWeight" type="xs:string"/>
+      <xs:element name="EUSavingDirectiveIndicator" type="xs:string"/>
+      <xs:element name="FATCAIndicator" type="xs:string"/>
+      <xs:element name="QuestionType" type="xs:string"/>
+      <xs:element name="Sex" type="xs:string"/>
+      <xs:element name="StatusIndicator" type="xs:string"/>
+      <xs:element name="TaxpayerIdentificationNumber" type="xs:string"/>
+      <xs:element name="ToDate" type="xs:string"/>
+      <xs:element name="TownOfBirth" type="xs:string"/>
+      <xs:element name="USIndicia" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="NationalInsuranceNumber" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

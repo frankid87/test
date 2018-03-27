@@ -1,0 +1,67 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+	<xs:include schemaLocation="Header.xsd"/>
+
+	<xs:element name="Extract">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header" type="Header"/>
+				<xs:element name="DividendClientEntitlements" type="DividendClientEntitlements" minOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="DividendClientEntitlements">
+		<xs:sequence>
+			<xs:element name="DividendClientEntitlement" type="DividendClientEntitlement" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DividendClientEntitlement">
+		<xs:sequence>
+			<xs:element name="FirmCode" type="xs:string"/>
+			<xs:element name="StockCode" type="xs:string"/>
+			<xs:element name="DividendNumber" type="xs:string"/>
+			<xs:element name="NomineeCode" type="xs:string"/>
+			<xs:element name="DepotCode" type="xs:string"/>
+			<xs:element name="PayClientAccount" type="xs:string"/>
+			<xs:element name="MarketBargainRef" type="xs:string"/>
+			<xs:element name="MarketBargainRef2" type="xs:string"/>
+			<xs:element name="PayValue" type="xs:string"/>
+			<xs:element name="PayValue2" type="xs:string"/>
+			<xs:element name="EncashmentTax" type="xs:string"/>
+			<xs:element name="EsdWithheldTax" type="xs:string"/>
+			<xs:element name="OverseasTaxWithheld" type="xs:string"/>
+			<xs:element name="DividendPaymentCurrency" type="xs:string"/>
+			<xs:element name="ClientEqualisation" type="xs:string"/>
+			<xs:element name="OverseasTaxCollected" type="xs:string"/>
+			<xs:element name="TaxCredit1" type="xs:string"/>
+			<xs:element name="Group2TaxCredit" type="xs:string"/>
+			<xs:element name="TaxWithheld1" type="xs:string"/>
+			<xs:element name="Group2TaxWithheld" type="xs:string"/>
+			<xs:element name="ReceivingClientAccount" type="xs:string"/>
+			<xs:element name="ReceivingClientQuantity1" type="xs:string"/>
+			<xs:element name="ReceivingClientQuantity2" type="xs:string"/>
+			<xs:element name="CurrentFlagIndicator" type="xs:string"/>
+			<xs:element name="ActiveFlag" type="xs:string"/>
+			<xs:element name="ReceiveStatus" type="xs:string"/>
+			<xs:element name="ReceiveCurrency" type="xs:string"/>
+			<xs:element name="ReceiveFromPty" type="xs:string"/>
+			<xs:element name="ReceiveFrom" type="xs:string"/>
+			<xs:element name="PayTo" type="xs:string"/>
+			<xs:element name="ActualDate" type="xs:string"/>
+			<xs:element name="PayStatus" type="xs:string"/>
+			<xs:element name="ReceiptEqualisation" type="xs:string"/>
+			<xs:element name="ReceiptValue" type="xs:string"/>
+			<xs:element name="ReceiptValue2" type="xs:string"/>
+			<xs:element name="PayDate" type="xs:string"/>
+			<xs:element name="FATCAWithholdingIndicator" type="xs:string"/>
+			<xs:element name="FATCAWithholdingTaxAmount" type="xs:string"/>
+			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

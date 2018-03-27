@@ -1,0 +1,85 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Portfolios" type="Portfolios" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Portfolios">
+    <xs:sequence>
+      <xs:element name="Portfolio" type="Portfolio" minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Portfolio">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="PortfolioReference" type="xs:string"/>
+      <xs:element name="PortfolioDescription" type="xs:string"/>
+      <xs:element name="ExecutiveCode" type="xs:string"/>
+      <xs:element name="PortfolioCurrency" type="xs:string"/>
+      <xs:element name="MarketIndex1" type="xs:string"/>
+      <xs:element name="MarketIndex2" type="xs:string"/>
+      <xs:element name="MarketIndex3" type="xs:string"/>
+      <xs:element name="MarketIndex4" type="xs:string"/>
+      <xs:element name="MarketIndex5" type="xs:string"/>
+      <xs:element name="MarketIndex6" type="xs:string"/>
+      <xs:element name="MarketIndex7" type="xs:string"/>
+      <xs:element name="MarketIndex8" type="xs:string"/>
+      <xs:element name="MarketIndex9" type="xs:string"/>
+      <xs:element name="MarketIndex10" type="xs:string"/>
+      <xs:element name="ValuationType" type="xs:string"/>
+      <xs:element name="SortOrder" type="xs:string"/>
+      <xs:element name="ClassificationSet" type="xs:string"/>
+      <xs:element name="StopNextValuation" type="xs:string"/>
+      <xs:element name="IncludeInterest" type="xs:string"/>
+      <xs:element name="AnnualPackage" type="xs:string"/>
+      <xs:element name="IncludePE" type="xs:string"/>
+      <xs:element name="LedgerBalances" type="xs:string"/>
+      <xs:element name="AnnualDate" type="xs:string"/>
+      <xs:element name="Frequency" type="xs:string"/>
+      <xs:element name="ValuationDate" type="xs:string"/>
+      <xs:element name="ValuationPackage" type="xs:string"/>
+      <xs:element name="OtherDate1" type="xs:string"/>
+      <xs:element name="OtherDate2" type="xs:string"/>
+      <xs:element name="OtherDate3" type="xs:string"/>
+      <xs:element name="Schedule" type="xs:string"/>
+      <xs:element name="NameLine1" type="xs:string"/>
+      <xs:element name="NameLine2" type="xs:string"/>
+      <xs:element name="NameLine3" type="xs:string"/>
+      <xs:element name="NameLine4" type="xs:string"/>
+      <xs:element name="SubAccount" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber1" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy1" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber2" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy2" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber3" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy3" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber4" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy4" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber5" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy5" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber6" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy6" type="xs:string"/>
+      <xs:element name="ValuationAddressNumber7" type="xs:string"/>
+      <xs:element name="AdditionalClientValuationCopy7" type="xs:string"/>
+      <xs:element name="AccountantAddressNumber" type="xs:string"/>
+      <xs:element name="AccountantCopy" type="xs:string"/>
+      <xs:element name="AddForCTV" type="xs:string"/>
+      <xs:element name="PortfolioManagementStatus" type="xs:string"/>
+      <xs:element name="PortfolioRelationshipType" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,38 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="FeeTransactions" type="FeeTransactions" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="FeeTransactions">
+    <xs:sequence>
+      <xs:element name="FeeTransaction" type="FeeTransaction" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FeeTransaction">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="FeeTransactionReference" type="xs:string"/>
+      <xs:element name="ClientAccountReferenceCharged" type="xs:string"/>
+      <xs:element name="ClientAccountReferenceFor" type="xs:string"/>
+      <xs:element name="NetFeeAmount" type="xs:string"/>
+      <xs:element name="VATAmount" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+	  <xs:element name="ChangeType" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+      

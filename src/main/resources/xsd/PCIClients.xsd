@@ -1,0 +1,48 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="PCIClients" type="PCIClients" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="PCIClients">
+    <xs:sequence>
+      <xs:element name="PciClient" type="PciClient" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PciClient">
+    <xs:sequence>
+      <xs:element name="Firm" type="xs:string" />
+      <xs:element name="ClientReference" type="xs:string" />
+      <xs:element name="Details" type="Details" />
+      <xs:element name="ActiveFlag" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Details">
+    <xs:sequence>
+      <xs:element name="Detail" type="Detail" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Detail">
+    <xs:sequence>
+      <xs:element name="QuestionNumber" type="xs:string" />
+      <xs:element name="Question" type="xs:string" />
+      <xs:element name="QuestionResponse" type="xs:string" />
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,59 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Ledgers" type="Ledgers" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Ledgers">
+    <xs:sequence>
+      <xs:element name="Ledger" type="Ledger" minOccurs="0"  maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Ledger">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="ClientAccountReference" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="CurrencyCode" type="xs:string"/>
+      <xs:element name="SystemEntryDate" type="xs:string"/>
+      <xs:element name="SystemAmendDate" type="xs:string"/>
+      <xs:element name="PaymentMethod" type="xs:string"/>
+      <xs:element name="PaymentFrequency" type="xs:string"/>
+      <xs:element name="PayDate" type="xs:string"/>
+      <xs:element name="FreeMoney" type="xs:string"/>
+      <xs:element name="CreditInterest" type="xs:string"/>
+      <xs:element name="CreditPaymentAccount" type="xs:string"/>
+      <xs:element name="CreditPaymentAccountType" type="xs:string"/>
+      <xs:element name="CreditInterestGroup" type="xs:string"/>
+      <xs:element name="CreditInterestFrequency" type="xs:string"/>
+      <xs:element name="DebitInterest" type="xs:string"/>
+      <xs:element name="DebitPaymentAccount" type="xs:string"/>
+      <xs:element name="DebitPaymentAccountType" type="xs:string"/>
+      <xs:element name="DebitInterestGroup" type="xs:string"/>
+      <xs:element name="DebitInterestFrequency" type="xs:string"/>
+      <xs:element name="StatementFrequency" type="xs:string"/>
+      <xs:element name="BankAddressNumber" type="xs:string"/>
+      <xs:element name="StatementAddressNumber1" type="xs:string"/>
+      <xs:element name="StatementCopy1" type="xs:string"/>
+      <xs:element name="StatementAddressNumber2" type="xs:string"/>
+      <xs:element name="StatementCopy2" type="xs:string"/>
+      <xs:element name="StatementAddressNumber3" type="xs:string"/>
+      <xs:element name="StatementCopy3" type="xs:string"/>
+      <xs:element name="StatementAddressNumber4" type="xs:string"/>
+      <xs:element name="StatementCopy4" type="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,50 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+	<xs:include schemaLocation="Header.xsd"/>
+
+	<xs:element name="Extract">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Header" type="Header"/>
+				<xs:element name="CorporateActionsHeaders" type="CorporateActionsHeaders" minOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="CorporateActionsHeaders">
+		<xs:sequence>
+			<xs:element name="CorporateActionsHeader" type="CorporateActionsHeader" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CorporateActionsHeader">
+		<xs:sequence>
+			<xs:element name="FirmCode" type="xs:string"/>
+			<xs:element name="OldStockCode" type="xs:string"/>
+			<xs:element name="CorporateActionReference" type="xs:string"/>
+			<xs:element name="ExDate1" type="xs:string"/>
+			<xs:element name="ExDate2" type="xs:string"/>
+			<xs:element name="NewStockQuantity" type="xs:string"/>
+			<xs:element name="AdjustmentFactor" type="xs:string"/>
+			<xs:element name="CallPrice" type="xs:string"/>
+			<xs:element name="Currency" type="xs:string"/>
+			<xs:element name="ValueDate" type="xs:string"/>
+			<xs:element name="RecordDate" type="xs:string"/>
+			<xs:element name="RenunciationDate" type="xs:string"/>
+			<xs:element name="NomineeStatus" type="xs:string"/>
+			<xs:element name="IssueType" type="xs:string"/>
+			<xs:element name="OldStockQuantity" type="xs:string"/>
+			<xs:element name="XRefMarker" type="xs:string"/>
+			<xs:element name="FullDescription" type="xs:string"/>
+			<xs:element name="ShortDescription" type="xs:string"/>
+			<xs:element name="OptionsAvailable" type="xs:string"/>
+			<xs:element name="ActiveFlag" type="xs:string"/>
+			<xs:element name="ReplyDate" type="xs:string"/>
+			<xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

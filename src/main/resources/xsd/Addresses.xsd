@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://odi.pershingnexus.com/v1"
+           xmlns="http://odi.pershingnexus.com/v1"
+           elementFormDefault="qualified" >
+
+  <xs:include schemaLocation="Header.xsd"/>
+
+  <xs:element name="Extract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="Header"/>
+        <xs:element name="Addresses" type="Addresses" minOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Addresses">
+    <xs:sequence>
+      <xs:element name="Address" type="Address" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element name="FirmCode" type="xs:string"/>
+      <xs:element name="ActiveFlag" type="xs:string"/>
+      <xs:element name="AddressNumber" type="xs:string"/>
+      <xs:element name="AddressLine1" type="xs:string"/>
+      <xs:element name="AddressLine2" type="xs:string"/>
+      <xs:element name="AddressLine3" type="xs:string"/>
+      <xs:element name="AddressLine4" type="xs:string"/>
+      <xs:element name="AddressLine5" type="xs:string"/>
+      <xs:element name="AddressLine6" type="xs:string"/>
+      <xs:element name="PostCode" type="xs:string"/>
+      <xs:element name ="CareOfOrHoldMailAddress" type ="xs:string"/>
+      <xs:element name ="AddressCountry" type ="xs:string"/>
+      <xs:element name ="EmailAddressIndicator" type ="xs:string"/>
+      <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+      
